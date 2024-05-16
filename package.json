@@ -2,16 +2,21 @@
   "name": "steam-next-auth",
   "version": "1.0.0",
   "description": "NextAuth / AuthJS V5 Steam Provider",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "files": ["dist"],
   "scripts": {
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "hello",
-    "world"
+    "steam",
+    "next-auth",
+    "provider"
   ],
-  "author": "Your Name",
-  "license": "ISC",
+  "author": "Nik Novak",
+  "license": "MIT",
   "dependencies": {
     "crypto": "^1.0.1",
     "next": "^14.2.3",
@@ -20,6 +25,9 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
-    "@types/openid": "^2.0.5"
+    "@types/openid": "^2.0.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
   }
 }
