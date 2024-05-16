@@ -1,0 +1,25 @@
+{
+  "name": "steam-next-auth",
+  "version": "1.0.0",
+  "description": "NextAuth / AuthJS V5 Steam Provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "next": "^14.2.3",
+    "next-auth": "^5.0.0-beta.18",
+    "openid": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/openid": "^2.0.5"
+  }
+}
