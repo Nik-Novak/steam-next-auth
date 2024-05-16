@@ -1,5 +1,5 @@
 
-import { SteamProfile, SteamProviderOptions } from './steam';
+import { SteamProfile, SteamProviderOptions } from '../src/types/steam';
 import { NextRequest } from 'next/server';
 import { NextApiRequest } from 'next';
 import { OAuthConfig } from 'next-auth/providers';
