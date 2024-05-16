@@ -4,7 +4,7 @@
   "description": "NextAuth / AuthJS V5 Steam Provider",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "types": "./dist/types/index.d.ts",
+  "types": "./dist/index.d.ts",
   "files": ["dist"],
   "scripts": {
     "build": "tsup",
